@@ -1,7 +1,11 @@
 {
-  "name": "forta-agent-starter",
+  "name": "high-volume-agent-ts",
   "version": "0.0.1",
-  "description": "Forta Agent Typescript starter project",
+  "description": "Forta Agent that detects high volume of transactions from an address on Typescript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DenisDiachenko/forta-agent"
+  },
   "scripts": {
     "build": "tsc",
     "start": "npm run start:dev",
@@ -14,12 +18,11 @@
     "publish": "forta-agent publish",
     "disable": "forta-agent disable",
     "enable": "forta-agent enable",
-    "keyfile": "forta-agent keyfile",
     "test": "jest"
   },
   "dependencies": {
     "bignumber.js": "^9.0.1",
-    "forta-agent": "^0.0.24"
+    "forta-agent": "^0.0.22"
   },
   "devDependencies": {
     "@types/jest": "^27.0.1",
